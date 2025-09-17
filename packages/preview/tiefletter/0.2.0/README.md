@@ -121,6 +121,12 @@ Closing statement and that's pretty much it.
 )
 ```
 
+### Usage notes on other document types
+
+The library builds on two internal functions: `letter-preset` and `document-preset`.
+One could conceivably use either of these to generate documents, however, it is not
+recommended as their interfaces may change.
+
 ## Configuration Options
 
 Tiefletter has a lot of customization options. Importantly, a lot of it is
